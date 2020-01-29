@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component renders App 1`] = `
+<Fragment>
+  <Header />
+  <Character
+    character={
+      Object {
+        "characterName": "Rick Sanchez",
+        "id": 1,
+        "stats": Object {
+          "gender": "Male",
+          "lastLocation": "unknown",
+          "origin": "Earth",
+          "species": "Human",
+          "status": "Alive",
+        },
+      }
+    }
+    key="0"
+  />
+  <Character
+    character={
+      Object {
+        "characterName": "Morty Smith",
+        "id": 2,
+        "stats": Object {
+          "gender": "Male",
+          "lastLocation": "unknown",
+          "origin": "Earth",
+          "species": "Human",
+          "status": "Alive",
+        },
+      }
+    }
+    key="1"
+  />
+  <Character
+    character={
+      Object {
+        "characterName": "Mr.Poopy Butthole",
+        "id": 3,
+        "stats": Object {
+          "gender": "Male",
+          "lastLocation": "unknown",
+          "origin": "unknown",
+          "species": "uknown",
+          "status": "Alive",
+        },
+      }
+    }
+    key="2"
+  />
+  <Character
+    character={
+      Object {
+        "characterName": "Summer Smith",
+        "id": 4,
+        "stats": Object {
+          "gender": "Female",
+          "lastLocation": "unknown",
+          "origin": "Earth",
+          "species": "Human",
+          "status": "Alive",
+        },
+      }
+    }
+    key="3"
+  />
+  <Character
+    character={
+      Object {
+        "characterName": "Beth Smith",
+        "id": 5,
+        "stats": Object {
+          "gender": "Female",
+          "lastLocation": "unknown",
+          "origin": "Earth",
+          "species": "Human",
+          "status": "Alive",
+        },
+      }
+    }
+    key="4"
+  />
+  <Character
+    character={
+      Object {
+        "characterName": "Jerry Smith",
+        "id": 6,
+        "stats": Object {
+          "gender": "Male",
+          "lastLocation": "unknown",
+          "origin": "Earth",
+          "species": "Human",
+          "status": "Alive",
+        },
+      }
+    }
+    key="5"
+  />
+  <Character
+    character={
+      Object {
+        "characterName": "Birdperson",
+        "id": 7,
+        "stats": Object {
+          "gender": "Male",
+          "lastLocation": "unknown",
+          "origin": "unknown",
+          "species": "Bird",
+          "status": "Dead",
+        },
+      }
+    }
+    key="6"
+  />
+  <Character
+    character={
+      Object {
+        "characterName": "Squanchy",
+        "id": 8,
+        "stats": Object {
+          "gender": "Male",
+          "lastLocation": "unknown",
+          "origin": "unknown",
+          "species": "Cat?",
+          "status": "Dead",
+        },
+      }
+    }
+    key="7"
+  />
+  <Footer />
+</Fragment>
+`;
