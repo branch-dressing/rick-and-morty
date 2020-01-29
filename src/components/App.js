@@ -1,5 +1,7 @@
 import React from 'react';
 import styles from './App.css';
+import Character from './Character';
+import characters from './characters';
 
 const Header = () => (
   <header className={styles.Header}>
@@ -30,9 +32,15 @@ const Footer = () => (
   </footer>
 );
 
+const getCharacters = (characters) => {
+  return characters.map((character, i) => <Character key={i} character={character} />);
+};
+
+
 const App = () => (
   <React.Fragment>
     <Header />
+    {getCharacters(characters)}
     <Footer />
   </React.Fragment>
 );
